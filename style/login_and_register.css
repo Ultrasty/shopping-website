@@ -9,14 +9,3 @@ input{
 input:focus{
     background-color: antiquewhite;
 }
-
-button{
-    width: 100px;
-    padding: 10px;
-    margin-top: 40px;
-    border-radius: 5px;
-}
-
-button:hover{
-    background-color: antiquewhite;
-}
