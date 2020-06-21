@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('方正咆哮体.ttf');
+}
+
+header {
+    font-family: myFirstFont, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #98bf21;
+    width: calc(100% - 20px);
+    padding: 10px;
+    clear:left;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    font-weight: normal;
+    font-family: serif;
+    font-size: 15px;
+    float: right;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+div.left
+{
+    float:left;
+    width:160px;
+    margin:0;
+    padding:1em;
+}
+
+div.content
+{
+    margin-left:190px;
+    border-left:1px solid gray;
+    padding:1em;
+}
+
+div.footer
+{
+    padding:0.5em;
+    color:white;
+    background-color:gray;
+    clear:left;
+}
