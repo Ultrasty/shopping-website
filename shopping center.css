@@ -2,6 +2,9 @@
     margin: 0;
 }
 
+img{
+    padding: 0;
+}
 .flex {
     display: flex;
     justify-content: center;
@@ -30,7 +33,7 @@ header {
 }
 
 .header-left {
-    padding-right: 900px;
+    padding-right: 950px;
 }
 
 .header-right {
@@ -49,13 +52,14 @@ div.left {
     float: left;
     width: 160px;
     margin: 0;
-    background-color: orange;
+    background-color: white;
 }
 
 div.content {
     float: left;
-    background-color: orange;
+    background-color: white;
     font-family: jianti, serif;
+    margin:0;
 }
 
 div.footerfather{
@@ -70,7 +74,7 @@ div.footer {
     color: white;
     background-color: #3f423c;
     text-align: center;
-    padding-right: 1240px;
+    padding-right: 1290px;
 }
 
 div.list{
@@ -79,18 +83,33 @@ div.list{
     color: white;
     margin: 0;
     background-color: #5f5750;
-    height: 30px;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
+    height: 35px;
     text-align: center;
-    padding-top: 10px;
+    padding-bottom: 16px;
 }
 
 a.list{
     display:block;
+    text-align:center;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 11px;
 }
 
-a.list:hover{
+a.lastlist{
+    display:block;
+    text-align:center;
+    border: 2px solid black;
+    padding-top: 19px;
+    padding-bottom: 10px;
+}
+
+a.list:hover,a.lastlist:hover{
     background-color: cadetblue;
+}
+
+div.display img{
+    max-width: 325px;
+    max-height: 325px;
+    padding: 15px;
 }
