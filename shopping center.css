@@ -2,21 +2,30 @@
     margin: 0;
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+}
 
 @font-face {
-    font-family: myFirstFont;
+    font-family: paoxiao;
     src: url('方正咆哮体.ttf');
 }
 
+@font-face {
+    font-family: jianti;
+    src: url('方正剑体简体_0.ttf');
+}
+
 header {
-    font-family: myFirstFont, serif;
+    font-family: paoxiao, serif;
     font-weight: bold;
     font-size: 30px;
     color: #ffffff;
     background-color: #98bf21;
     width: calc(100% - 20px);
     padding: 10px;
-    clear:left;
+    clear: left;
 }
 
 .header-left {
@@ -25,10 +34,10 @@ header {
 
 .header-right {
     font-weight: normal;
-    font-family: serif;
+    font-family: jianti, serif;
     font-size: 15px;
     float: right;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 a {
@@ -36,25 +45,24 @@ a {
     color: #FFFFFF;
 }
 
-div.left
-{
-    float:left;
-    width:160px;
-    margin:0;
-    padding:1em;
+div.left {
+    float: left;
+    width: 160px;
+    margin: 0;
+    padding: 1em;
+    background-color: orange;
 }
 
-div.content
-{
-    margin-left:190px;
-    border-left:1px solid gray;
-    padding:1em;
+div.content {
+    float: left;
+    background-color: orange;
+    padding: 1em;
+    font-family: jianti, serif;
 }
 
-div.footer
-{
-    padding:0.5em;
-    color:white;
-    background-color:gray;
-    clear:left;
+div.footer {
+    padding: 0.5em;
+    color: white;
+    background-color: gray;
+    clear: left;
 }
