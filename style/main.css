@@ -17,7 +17,7 @@ img{
 
 @font-face {
     font-family: jianti;
-    src: url('方正剑体简体_0.ttf');
+    src: url('方正剑体简体_0.TTF');
 }
 
 header {
@@ -113,3 +113,27 @@ div.display img{
     max-height: 325px;
     padding: 15px;
 }
+
+div.register{
+    width: 400px;
+    height: 600px;
+    background-color: #3f423c;
+    border-radius: 10px;
+}
+
+div.register div.header{
+    color: white;
+    text-align: center;
+    font-family: jianti;
+    font-size: 70px;
+    padding-top: 60px;
+}
+
+div.tips{
+    color: white;
+    text-align: center;
+    font-family: jianti;
+    font-size: 25px;
+    padding: 10px;
+}
+
