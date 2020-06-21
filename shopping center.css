@@ -22,21 +22,21 @@ header {
     font-weight: bold;
     font-size: 30px;
     color: #ffffff;
-    background-color: #98bf21;
+    background-color: #3f423c;
     width: calc(100% - 20px);
     padding: 10px;
     clear: left;
+    margin-bottom: 10px;
 }
 
 .header-left {
-    float: left;
+    padding-right: 900px;
 }
 
 .header-right {
     font-weight: normal;
     font-family: jianti, serif;
     font-size: 15px;
-    float: right;
     padding-top: 20px;
 }
 
@@ -49,20 +49,48 @@ div.left {
     float: left;
     width: 160px;
     margin: 0;
-    padding: 1em;
     background-color: orange;
 }
 
 div.content {
     float: left;
     background-color: orange;
-    padding: 1em;
     font-family: jianti, serif;
 }
 
+div.footerfather{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+}
+
 div.footer {
-    padding: 0.5em;
+    width: 100%;
+    padding: 1.2em;
     color: white;
-    background-color: gray;
-    clear: left;
+    background-color: #3f423c;
+    text-align: center;
+    padding-right: 1240px;
+}
+
+div.list{
+    font-family: jianti,serif;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    background-color: #5f5750;
+    height: 30px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+a.list{
+    display:block;
+}
+
+a.list:hover{
+    background-color: cadetblue;
 }
