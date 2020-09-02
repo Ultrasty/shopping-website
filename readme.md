@@ -1,5 +1,7 @@
 # web作业
 
+本项目代码托管在https://github.com/Ultrasty/shopping-website
+
 tips:
 
 + 项目部署在`ooblogs.com`，IP为`139.196.195.26`，服务器为Apache/2.4.46 (Win64) PHP/7.4.9，此服务器将在9.28过期。
