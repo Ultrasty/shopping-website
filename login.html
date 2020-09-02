@@ -5,6 +5,7 @@
     <title>登录</title>
     <link rel="stylesheet" type="text/css" href="style/main.css"/>
     <link rel="stylesheet" type="text/css" href="style/login_and_register.css">
+	<script type="text/javascript" src="/scripts/login.js"></script>
 </head>
 <body>
 <header>
@@ -23,13 +24,13 @@
         <label>
             <div class="flex">
                 <div class="tips" style="margin-top: 20px">&nbsp&nbsp用户名:</div>
-                <input style="margin-top: 28px"></div>
+                <input style="margin-top: 28px" id="id"></div>
             <div class="flex">
                 <div class="tips">&nbsp&nbsp&nbsp&nbsp密码:</div>
-                <input></div>
+                <input id="password"></div>
         </label>
         <div class="flex">
-            <button>登录</button>
+            <button onclick="show()">登录</button>
         </div>
     </div>
 

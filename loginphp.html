@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        function show()
+        {
+            var xmlhttp;
+            let id=document.getElementById("id").value;
+            let password=document.getElementById("password").value;
+            xmlhttp=new XMLHttpRequest();
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    let panduan=xmlhttp.responseText;
+                    if(panduan=="1")
+                    document.getElementById("txt").innerHTML="登陆成功";
+                    else document.getElementById("txt").innerHTML="密码错误";
+                }
+            }
+            xmlhttp.open("GET","phploginserver.php?id="+id+"&password="+password,true);
+            xmlhttp.send();
+        }
+    </script>
+</head>
+<body>
+
+<h3>请输入账号密码：</h3>
+
+    账号：<input type="text" id="id"/>
+    <br><br>
+    密码：<input type="text" id="password"/>
+    <br><br>
+    <button onclick="show()">登录</button>
+
+<p><span id="txt"></span></p>
+
+</body>
+</html>

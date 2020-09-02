@@ -36,3 +36,11 @@ RewriteRule .* - [L,R=404]
 \# NOTE! FOR APACHE ON WINDOWS: Add [NC] to RewriteCond like this:
 \# RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$" [NC]
 ```
+
+
+
+样例功能：登录
+
+输入账号sty ，密码123456给服务器，服务器校验正确返回客户端，提示登陆成功
+
+这是个样例功能，生产环境还是得靠$_SESSION[]
