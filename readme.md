@@ -1,4 +1,4 @@
-# web作业
+# 不使用框架技术开发的前端页面
 
 本项目代码托管在https://github.com/Ultrasty/shopping-website
 
