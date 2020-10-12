@@ -1,4 +1,4 @@
-# 不使用框架技术开发的前端页面
+# 同济大学嘉定校区购物中心
 
 本项目代码托管在https://github.com/Ultrasty/shopping-website
 
